@@ -74,3 +74,17 @@ Higher LTV and certain credit structures significantly increase default probabil
 - Deploy as scoring API
 
 ## Project Structure
+```
+loan-default-risk-analytics/
+│
+├── notebooks/
+│   └── 01_eda_modeling.ipynb
+│
+├── README.md
+│
+└── .gitignore
+```
+
+## Author
+Tianxiao He  
+Applied Economics & Data Analytics
