@@ -14,6 +14,7 @@ Financial institutions must balance risk control and loan approval efficiency. T
 - Observations: ~148,000 loans
 - Target variable: `Status` (1 = Default, 0 = Non-default)
 - Default rate: ~24.6%
+
 Key features include:
 - Loan amount
 - Credit score
@@ -44,6 +45,7 @@ Baseline threshold (0.5):
 - AUC: 0.86
 - Precision (Default): 0.93
 - Recall (Default): 0.51
+
 Adjusted threshold (0.3):
 - Recall improved to 0.65
 - Precision reduced to 0.72
@@ -56,6 +58,7 @@ Top influential variables:
 - Interest rate spread
 - Income (negative relationship with default)
 - Upfront charges
+
 Higher LTV and certain credit structures significantly increase default probability.
 
 ## Business Insights
