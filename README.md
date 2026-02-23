@@ -50,7 +50,8 @@ Adjusted threshold (0.3):
 - Recall improved to 0.65
 - Precision reduced to 0.72
 This demonstrates trade-off management between risk detection and false positives.
-
+### ROC Curve
+![ROC Curve](images/roc_curve.png)
 ## Key Risk Driver
 Top influential variables:
 - Credit type (Equity-based loans)
